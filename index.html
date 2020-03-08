@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;br&gt; Remover</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="break_remover.css">
+    <script type="text/javascript" src="break_remover.js"></script>
+</head>
+<body>
+	<h1>Label Parsing Tool </h1>
+	<div class="boxes">
+		<div class="wrapper">
+			<p><textarea id="textBox" placeholder="Paste Label Here:"></textarea></p>
+		</div>
+		<div class="wrapper">
+			<p id = "outputArea"><textarea placeholder="output"></textarea></p>
+			<p id = "ingredientOutput"></p>
+		</div>
+	</div>
+	<div class="buttons">
+		<div class="dark wrapper">
+			<button onclick="removeBreaks()">Remove Breaks</button>
+		</div>
+		<div class="dark wrapper">
+			<button onclick="itemizeIngredients()">Itemize Ingredients</button>
+		</div>
+	</div>
+</body>
+</html>
